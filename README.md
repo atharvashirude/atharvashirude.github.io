@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @atharvashirude
 - 👀 I’m interested in Cyber Security
-- 🌱 I’m currently working as an Associate Security Consultant
-- 💞️ I’m currently learning Pentesting 
+- 🌱 I’m currently working as an Information Security Engineer - Red Team
+- 💞️ I love Pentesting 
 - 📫 How to reach me sec.atharvashirude@gmail.com
 
 <!---
