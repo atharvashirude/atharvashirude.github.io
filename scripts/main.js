@@ -114,9 +114,9 @@ async function getInputValue(){
     "<br>* Incident Handling & Incident Response"+
     "<br>* Log Monitoring & Security Analysis"+
     "<br>* Reporting & Documentation"+
-    "<br>* Knowledge & Content Creation (Penetration testing)<br>"+
+    "<br>* Knowledge & Content Creation (Penetration testing)<br><br>"+
     "Associate Security Consultant, HACK-X Security"+
-    "<br>(07/2021 – 11/2021) | Pune, India<br><br>"+
+    "<br>(07/2021 – 11/2021) | Pune, India<br>"+
     "<br>* Performing Regular Pentest over a Variety of Technology Stack."+
     "<br>* Web Application & API Penetration Testing"+
     "<br>* Network Attack Simulation"+
