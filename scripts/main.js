@@ -18,7 +18,6 @@ app.addEventListener("click", function(event){
   input.focus();
 })
 
-
 async function open_terminal(){
   createText("Welcome");
   await delay(700);
