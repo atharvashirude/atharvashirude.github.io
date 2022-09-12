@@ -91,7 +91,7 @@ async function getInputValue(){
   }
   else if(value === "ls"){
     trueValue(value);
-    createText("<a href='https://drive.google.com/file/d/1tPM2t4V6NgMRLPXeRXEaz6HFwI65ICVC/view?usp=sharing' target='_blank'><i class='fa fa-file'></i> resume.pdf      </a><a target='_blank'><i class='fa fa-file'></i> work_exp.txt </a></a><a target='_blank'><i class='fa fa-file'></i> edu.txt</a>")
+    createText("<a href='https://drive.google.com/file/d/1tPM2t4V6NgMRLPXeRXEaz6HFwI65ICVC/view?usp=sharing' target='_blank'><i class='fa fa-file'></i> resume.pdf      </a><a target='_blank'><i class='fa fa-file'></i> work.txt </a></a><a target='_blank'><i class='fa fa-file'></i> edu.txt</a>")
   }
   else if(value === "whoami"){
     trueValue(value);
@@ -105,7 +105,7 @@ async function getInputValue(){
     createText("<a href='https://rootissh.in' target='_blank'><i class='fa fa-globe'></i> rootissh.in</a>")    
     createText("<a href='https://github.com/atharvashirude' target='_blank'><i class='fab fa-github white'></i> github.com/atharvashirude</a>")
   }
-  else if(value === "cat work_exp.txt"){
+  else if(value === "cat work.txt"){
     trueValue(value);
     createText("Information Security Engineer, Algosmic  <br>  (02/2022 – present) | Pune, India<br>" +
     "* Web Application & API, Internal & External Network, Mobile Application, Wi-Fi, Cloud Security Penetration Testing"+
