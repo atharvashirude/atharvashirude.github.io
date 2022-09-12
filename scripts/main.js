@@ -81,7 +81,7 @@ async function getInputValue(){
     trueValue(value);
     
     createCode("ls", "List all files. ");
-    createCode("whoami", "Who am i and what do i do.");
+    createCode("whoami", "Who am i.");
     createCode("cat", "Displays the content of text files.");
     createCode("social -a", "All my social networks. Follow me there ;)");
     createCode("pwd", "Present working directory.");
