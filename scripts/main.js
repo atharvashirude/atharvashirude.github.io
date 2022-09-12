@@ -221,7 +221,6 @@ function createCode(code, text){
 
 
 
-
 // Steve Jobs Quotes
 console.log("\n \t Your work is going to fill a large part of your life,\n and the only way to be " +
   "truly satisfied is to do what you \n believe is great work. And the only way to do great" +
