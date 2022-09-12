@@ -2,8 +2,6 @@
 const app = document.querySelector("#app");
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
-
-    
 app.addEventListener("keypress", async function(event){
   if(event.key === "Enter"){
     await delay(150);
