@@ -25,7 +25,6 @@ async function open_terminal(){
   createText("Starting the server...");
   await delay(1500);
   createText("Type help to see what all you can do:");
- 
   createCode("help", "See all commands.");
   
   await delay(500);
