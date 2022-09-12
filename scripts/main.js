@@ -107,7 +107,7 @@ async function getInputValue(){
   }
   else if(value === "cat work_exp.txt"){
     trueValue(value);
-    createText("Information Security Engineer, Algosmic  <br>  (02/2022 – present) | Pune, India<br><br>" +
+    createText("Information Security Engineer, Algosmic  <br>  (02/2022 – present) | Pune, India<br>" +
     "* Web Application & API, Internal & External Network, Mobile Application, Wi-Fi, Cloud Security Penetration Testing"+
     "<br>* Red Team Operations"+
     "<br>* Script development (Python and Shell scripts)"+
@@ -116,21 +116,21 @@ async function getInputValue(){
     "<br>* Reporting & Documentation"+
     "<br>* Knowledge & Content Creation (Penetration testing)<br><br>"+
     "Associate Security Consultant, HACK-X Security"+
-    "<br>(07/2021 – 11/2021) | Pune, India<br>"+
+    "<br>(07/2021 – 11/2021) | Pune, India"+
     "<br>* Performing Regular Pentest over a Variety of Technology Stack."+
     "<br>* Web Application & API Penetration Testing"+
     "<br>* Network Attack Simulation"+
     "<br>* Conducting 10+ VAPT training sessions"+
     "<br>* Reporting, Documentation & Reviewing<br><br>"+
     "Intern, Cybercell, Pimpri Chinchwad Police Commissionerate Office"+
-    "<br>(03/2021 – 06/2021)<br>"+
+    "<br>(03/2021 – 06/2021)"+
     "<br>* A project which provided an interface for data entry to store case files"+
     "<br>* It was developed to store for more than 100000 cases into a database and secure the application"+
     "<br><br>Cyber Security Research Intern, Pianalytix"+
-    "<br>(11/2020 – 12/2020)<br>"+
+    "<br>(11/2020 – 12/2020)"+
     "<br>* Researched on 10 different topics in a span of 1 month<br><br>"+
     "Summer Intern, Leading India, Bennett University"+
-    "<br>(05/2020 – 06/2020)<br>"+
+    "<br>(05/2020 – 06/2020)"+
     "<br>* My team's project was ranked 1st among 26+ teams"
     )
   }
