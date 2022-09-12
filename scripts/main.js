@@ -28,9 +28,9 @@ async function open_terminal(){
   await delay(1500);
   createText("Type help to see what all you can do:");
  
-  // createCode("whoami", "Who am i and what do i do.");
   createCode("help", "See all commands.");
-  // createCode("social -a", "All my social networks.");
+  
+  await delay(500);
   const p = document.createElement("p");
   const span1 = document.createElement("span");
   const span2 = document.createElement("span");
@@ -43,6 +43,7 @@ async function open_terminal(){
   app.appendChild(p);
   await delay(500);
   new_line();
+  
 }
 
 
