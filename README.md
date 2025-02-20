@@ -1,9 +1,8 @@
 👋 Hi, I’m Atharva Shirude!
 
-🔒 Cybersecurity professional with expertise in penetration testing, threat modeling, incident response, and security assessments
-🎯 Passionate about Red Teaming and Security Engineering
-🚀 Always learning and building security tools, automation scripts, and research projects
-📫 Reach me at sec.atharvashirude@gmail.com
+🔒 Cybersecurity professional with expertise in penetration testing, threat modeling, incident response, and security assessments<br>
+🚀 Always learning and building security tools, automation scripts, and research projects<br>
+📫 Reach me at sec.atharvashirude@gmail.com<br>
 🔗 Blog & Write-ups: https://rootissh.in
 
 <!---
