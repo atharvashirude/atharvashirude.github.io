@@ -88,7 +88,7 @@ async function getInputValue(){
   }
   else if(value === "ls"){
     trueValue(value);
-    createText("<a href='https://drive.google.com/file/d/1tPM2t4V6NgMRLPXeRXEaz6HFwI65ICVC/view?usp=sharing' target='_blank'><i class='fa fa-file'></i> resume.pdf      </a><a target='_blank'><i class='fa fa-file'></i> work.txt </a></a><a target='_blank'><i class='fa fa-file'></i> edu.txt</a>")
+    createText("<a href='https://drive.google.com/file/d/1tPM2t4V6NgMRLPXeRXEaz6HFwI65ICVC/view?usp=sharing' target='_blank'><i class='fa fa-file'></i> resume.pdf      </a><a target='_blank'><i class='fa fa-file'></i> edu.txt</a>") //<a target='_blank'><i class='fa fa-file'></i> work.txt </a></a>
   }
   else if(value === "whoami"){
     trueValue(value);
@@ -102,7 +102,7 @@ async function getInputValue(){
     createText("<a href='https://rootissh.in' target='_blank'><i class='fa fa-globe'></i> rootissh.in</a>")    
     createText("<a href='https://github.com/atharvashirude' target='_blank'><i class='fab fa-github white'></i> github.com/atharvashirude</a>")
   }
-  else if(value === "cat work.txt"){
+ /* else if(value === "cat work.txt"){
     trueValue(value);
     createText("Information Security Engineer, Algosmic  <br>  (02/2022 – present) | Pune, India<br>" +
     "* Web Application & API, Internal & External Network, Mobile Application, Wi-Fi, Cloud Security Penetration Testing"+
@@ -113,30 +113,28 @@ async function getInputValue(){
     "<br>* Reporting & Documentation"+
     "<br>* Knowledge & Content Creation (Penetration testing)<br><br>"+
     "Associate Security Consultant, HACK-X Security"+
-    "<br>(07/2021 – 11/2021) | Pune, India"+
+    "<br>(07/2021 – 01/2022) | Pune, India"+
     "<br>* Performing Regular Pentest over a Variety of Technology Stack."+
     "<br>* Web Application & API Penetration Testing"+
     "<br>* Network Attack Simulation"+
     "<br>* Conducting 10+ VAPT training sessions"+
     "<br>* Reporting, Documentation & Reviewing<br><br>"+
-    "Intern, Cybercell, Pimpri Chinchwad Police Commissionerate Office"+
-    "<br>(03/2021 – 06/2021)"+
-    "<br>* A project which provided an interface for data entry to store case files"+
-    "<br>* It was developed to store for more than 100000 cases into a database and secure the application"+
-    "<br><br>Cyber Security Research Intern, Pianalytix"+
-    "<br>(11/2020 – 12/2020)"+
-    "<br>* Researched on 10 different topics in a span of 1 month<br><br>"+
-    "Summer Intern, Leading India, Bennett University"+
-    "<br>(05/2020 – 06/2020)"+
-    "<br>* My team's project was ranked 1st among 26+ teams"
-    )
-  }
+    
+    ) 
+  } */
   else if(value === "cat edu.txt"){
     trueValue(value);
-    createText("B.Tech Computer Science and Engineering,<br>"+
+    createText("M.Engg in Cybersecurity<br>"+
+    "University of Maryland, College Park, US"+
+    " | 2023 – 2025"+
+    "<br>3.77/4 GPA"+
+   
+      
+      "B.Tech in Computer Science and Engineering,<br>"+
     "MIT WPU, Pune"+
     " | 2019 – 2022"+
-    "<br>8.5 CGPA"+
+    "<br>3.4/4 GPA"+
+      
     "<br><br>Diploma in Computer Science,<br>"+
     "MIT Polytechnic, Pune"+
     " | 2017 – 2019"
