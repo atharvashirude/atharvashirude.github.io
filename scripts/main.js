@@ -93,7 +93,7 @@ async function getInputValue(){
   else if(value === "whoami"){
     trueValue(value);
     createText("Atharva Shirude")
-    createText("My journey into the world of cybersecurity has been a thrilling quest to unravel the complexities of our digital realm. My academic pursuits have allowed me to delve into advanced skills and concepts, ranging from threat and vulnerability management to network security and cryptography.")
+    createText("I enjoy securing applications and infrastructure to make products and environments more robust and secure. Looking forward to work in an organization where I can input my creative methodologies and out of the box thinking and be a team player.")
   }
   else if(value === "social -a"){
     trueValue(value);
@@ -130,14 +130,14 @@ async function getInputValue(){
     "<br>3.77/4 GPA"+
    
       
-      "<br><br>B.Tech in Computer Science and Engineering,<br>"+
+      "B.Tech in Computer Science and Engineering,<br>"+
     "MIT WPU, Pune"+
     " | 2019 – 2022"+
     "<br>3.4/4 GPA"+
- /*     
+      
     "<br><br>Diploma in Computer Science,<br>"+
     "MIT Polytechnic, Pune"+
-    " | 2017 – 2019" */
+    " | 2017 – 2019"
     )
   }
   else if(value === "pwd"){
