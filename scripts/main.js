@@ -81,8 +81,9 @@ async function getInputValue(){
     createCode("ls", "List all files. ");
     createCode("whoami", "Who am i.");
     createCode("cat", "Displays the content of text files.");
-    createCode("social -a", "All my social networks. Follow me there ;)");
+    createCode("social -a", "All my social networks. I hope you follow me there :)");
     createCode("pwd", "Present working directory.");
+    createCode("sudo su", "Super User");
     createCode("clear", "Clean the terminal.");
     
   }
@@ -93,7 +94,7 @@ async function getInputValue(){
   else if(value === "whoami"){
     trueValue(value);
     createText("Atharva Shirude")
-    createText("I enjoy securing applications and infrastructure to make products and environments more robust and secure. Looking forward to work in an organization where I can input my creative methodologies and out of the box thinking and be a team player.")
+    createText("A Cybersecurity Engineer with hands-on experience in securing applications, cloud infrastructure, and enterprise environments. Proven track record in penetration testing, threat detection, and implementing defense strategies that strengthen system resilience. I bring curiosity, creativity, and just enough paranoia to keep things safe and interesting.")
   }
   else if(value === "social -a"){
     trueValue(value);
@@ -133,13 +134,17 @@ async function getInputValue(){
       "<br><br>B.Tech in Computer Science and Engineering,<br>"+
     "MIT WPU, Pune"+
     " | 2019 – 2022"+
-    "<br>3.4/4 GPA"+
+    "<br>3.4/4 GPA"
       
     )
   }
   else if(value === "pwd"){
     trueValue(value);
     createText("/home/atharvashirude")
+  }
+  else if(value === "sudo su"){
+    trueValue(value);
+    createText("Nice try 😏. You're already root.")
   }
   else if(value === "social"){
     trueValue(value);
