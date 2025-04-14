@@ -53,7 +53,7 @@ body {
 .container{
   display:flex;
   flex-direction: column;
-  width:100%;
+  width:95%;
   max-width:800px;
   height:500px;
   overflow: hidden;
@@ -105,9 +105,19 @@ div.title{
     flex-direction: row;
   }
 }
-@media (max-width:330px){
-  .menu h1{
-    display:none;
+@media (max-width: 500px) {
+  .container {
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .menu h1 {
+    font-size: 11px;
+  }
+
+  .intro {
+    padding: 10px;
   }
 }
 #app{
@@ -200,12 +210,12 @@ input:focus{
 }
 
 .intro h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 16px;
 }
 
 .intro p {
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 1px;
   color: #ccc;
 }
