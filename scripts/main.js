@@ -130,14 +130,11 @@ async function getInputValue(){
     "<br>3.77/4 GPA"+
    
       
-      "B.Tech in Computer Science and Engineering,<br>"+
+      "<br><br>B.Tech in Computer Science and Engineering,<br>"+
     "MIT WPU, Pune"+
     " | 2019 – 2022"+
     "<br>3.4/4 GPA"+
       
-    "<br><br>Diploma in Computer Science,<br>"+
-    "MIT Polytechnic, Pune"+
-    " | 2017 – 2019"
     )
   }
   else if(value === "pwd"){
