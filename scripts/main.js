@@ -2,6 +2,17 @@
 const app = document.querySelector("#app");
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
+const commands = [
+  "help",
+  "ls",
+  "whoami",
+  "social -a",
+  "cat",
+  "pwd",
+  "sudo su",
+  "clear"
+];
+
 app.addEventListener("keypress", async function(event){
   if(event.key === "Enter"){
     await delay(150);
@@ -11,6 +22,31 @@ app.addEventListener("keypress", async function(event){
     await delay(150);
     new_line();
   }
+
+  app.addEventListener("keydown", function(event){
+    const input = document.querySelector("input");
+    if(event.key === "Tab"){
+      event.preventDefault();
+  
+      const current = input.value.trim();
+  
+      // ⛔ Don't autocomplete on empty input
+      if (current === "") return;
+  
+      // ✅ Match any full or partial command
+      const matches = commands.filter(cmd => cmd.startsWith(current) && cmd !== current);
+
+  
+      if(matches.length === 1){
+        input.value = matches[0]; // Autocomplete
+      } else if(matches.length > 1){
+        // Show all matching options like a real terminal
+        createText(matches.join("  "));
+      }
+    }
+  });
+  
+
 });
 
 app.addEventListener("click", function(event){
@@ -24,7 +60,7 @@ async function open_terminal(){
   createText("Starting the server...");
   await delay(1500);
   createText("Type help to see what all you can do:");
-  createCode("help", "See all commands.");
+  createCode("help", "See all commands. You can tabcomplete as well.");
   
   await delay(500);
   const p = document.createElement("p");
@@ -206,6 +242,9 @@ function createText(text, classname){
   app.appendChild(p);
 }
 
+
+
+
 function createCode(code, text){
   const p = document.createElement("p");
   p.setAttribute("class", "code");
@@ -216,8 +255,7 @@ function createCode(code, text){
 
 
 
-
-
+  
 
 
 
