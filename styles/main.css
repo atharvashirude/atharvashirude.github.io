@@ -228,3 +228,11 @@ input:focus{
   
   margin-top: 0px;
 }
+
+.profile-pic {
+  width: 150px;       /* adjust size */
+  height: auto;       /* maintain aspect ratio */
+  border-radius: 50%; /* optional: make it circular */
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* subtle shadow */
+}
