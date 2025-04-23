@@ -125,7 +125,7 @@ async function getInputValue(){
   }
   else if(value === "ls"){
     trueValue(value);
-    createText("<a href='https://drive.google.com/file/d/1tPM2t4V6NgMRLPXeRXEaz6HFwI65ICVC/view?usp=sharing' target='_blank'><i class='fa fa-file'></i> resume.pdf      </a><a target='_blank'><i class='fa fa-file'></i> edu.txt</a>") //<a target='_blank'><i class='fa fa-file'></i> work.txt </a></a>
+    createText("<a href='https://atharvashirude.github.io/styles/Atharva_Shirude_Resume.pdf' target='_blank'><i class='fa fa-file'></i> resume.pdf      </a><a target='_blank'><i class='fa fa-file'></i> edu.txt</a>") //<a target='_blank'><i class='fa fa-file'></i> work.txt </a></a>
   }
   else if(value === "whoami"){
     trueValue(value);
