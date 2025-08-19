@@ -1,4 +1,4 @@
-# Atharva Shirude's Portfolio Terminal ⚡
+# Atharva Shirude's Portfolio ⚡
 
 Welcome to my interactive cyber-playground!
 

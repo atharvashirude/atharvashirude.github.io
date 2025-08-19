@@ -569,8 +569,8 @@ img {
     margin: 0;
   }
   .header {
-    top: initial;
-    bottom: 0;
+    top: 0;
+    bottom: initial;
   }
   .nav {
     height: 3.5rem;
