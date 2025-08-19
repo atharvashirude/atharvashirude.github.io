@@ -569,8 +569,7 @@ img {
     margin: 0;
   }
   .header {
-    top: 0;
-    bottom: initial;
+    display: none;
   }
   .nav {
     height: 3.5rem;
