@@ -28,7 +28,7 @@ Test your hacker cred, poke around, or just enjoy the UI.
 
 - AI, security automation, LLM red teaming, honeypots.
 - Playful modal animations and hacker vibes.
-- No actual vulnerabilities—just awesome web craft.
+- No actual vulnerabilities, just awesome web craft.
 
 ---
 
