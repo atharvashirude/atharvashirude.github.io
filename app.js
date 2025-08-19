@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // --- Command and Fun Stuff ---
   const terminalCommands = [
     "help","about","sudo",
-    "contact","website","github","whoami","quote",
+    "contact","blog","github","whoami","quote",
     "clear","close"
   ];
   const quotes = [
