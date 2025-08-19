@@ -8,7 +8,7 @@ Welcome to my interactive cyber-playground!
 
 ## What is This?
 
-A web-based security engineer profile with a twist—
+A web-based security engineer profile with a twist,
 there’s an integrated web terminal, autocomplete, and fun “easter egg” commands.
 Test your hacker cred, poke around, or just enjoy the UI.
 
