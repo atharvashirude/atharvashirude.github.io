@@ -1,11 +1,49 @@
-👋 Hi, I’m Atharva Shirude!
+# Atharva Shirude's Portfolio Terminal ⚡
 
-🔒 Cybersecurity professional<br>
-🚀 Always learning and building security tools, automation scripts, and research projects<br>
-📫 Reach me at sec.atharvashirude@gmail.com<br>
-🔗 Blog & Write-ups: https://rootissh.in<br>
-💼 LinkedIn: [linkedin.com/in/atharvashirude](https://www.linkedin.com/in/atharvashirude) 
-<!---
-atharvashirude/atharvashirude is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Welcome to my interactive cyber-playground!
+
+🌐 **Live Portfolio:** [atharvashirude.github.io](https://atharvashirude.github.io)
+
+---
+
+## What is This?
+
+A web-based security engineer profile with a twist—
+there’s an integrated web terminal, autocomplete, and fun “easter egg” commands.
+Test your hacker cred, poke around, or just enjoy the UI.
+
+---
+
+## Terminal Features
+
+- **Tab autocomplete**
+- Command output mimics a real shell
+- Enter `help` for a list of available commands
+- Type `quote` for inspiration
+- Try `sudo` for the mystery
+
+---
+
+## Projects & Themes
+
+- AI, security automation, LLM red teaming, honeypots.
+- Playful modal animations and hacker vibes.
+- No actual vulnerabilities—just awesome web craft.
+
+---
+
+## Deploy/Customize
+
+Fork or clone.  
+Push to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages).  
+Personalize the terminal commands and terminal visuals as much as you want!
+
+---
+
+## License
+
+MIT  
+Free to remix. Just don't get phished.
+
+---
+

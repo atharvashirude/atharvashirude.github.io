@@ -1,64 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap"
-   rel="stylesheet">
-  <link href="styles/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles/main.css">
-  <title>Atharva Shirude</title>
-  <link rel="icon" href="styles/favicon_io/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="styles/favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="styles/favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="styles/favicon_io/favicon-16x16.png">
-  <link rel="manifest" href="styles/favicon_io/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Shirude | Security Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="terminal.css">
+    <script src="terminal.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
-
-<div class="intro">
-  <h2><a href="https://atharvashirude.github.io/styles/Atharva_Shirude_Resume.pdf" target="_blank"> Hey, I’m Atharva Shirude 👋</h2>
-  <img src="styles/Me.png" alt="Atharva Shirude" class="profile-pic">
-  
-  <p>
-    
-    I’m a cybersecurity engineer passionate about securing digital systems and solving real-world security problems. 
-    I love building things, breaking them, and learning in the process. </a>
-  </p>
-  <p>
-     
-    🛡️ Penetration Testing | 🔍 Threat Hunting | ☁️ Cloud Security | 🧠 AI x Security<br>
-    🎓 UMD Cybersecurity M.Eng | CTF addict & builder | <a href="https://calendly.com/sec-atharvashirude/30min" target="_blank" class="call-button">📅 Schedule a Recon</a>
-      <br> <br>
-    
-      <a href="https://rootissh.in" target="_blank" aria-label="Blog"><i class="fas fa-pen-nib"></i></a> ·
-      <a href="https://github.com/atharvashirude" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a> ·
-      <a href="https://linkedin.com/in/atharvashirude" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a> ·
-      <a href="mailto:sec.atharvashirude@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a> 
-
-
-  </p>
-</div>
-
-
 <body>
-  <div class="container">
-    <div class="menu">
-      <div class="buttons-flex">
-        <div class="button red"></div>
-        <div class="button yellow"></div>
-        <div class="button green"></div>
-      </div>
-      <div class="title">
-        <a href="https://atharvashirude.github.io/styles/Atharva_Shirude_Resume.pdf" target="_blank">
-          <h1><i class='fab fa-linux'></i> life/atharvashirude</h1>
-        </a>
-      </div>
+    <!-- Left Social Sidebar -->
+    <div class="left-sidebar">
+        <ul class="social__list">
+            <li><a href="https://github.com/atharvashirude" target="_blank" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a></li>
+            <li><a href="https://www.linkedin.com/in/atharvashirude/" target="_blank" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a></li>
+            <li><a href="https://rootissh.in" target="_blank" aria-label="Medium">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><title>Blog</title><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+            </a></li>
+        </ul>
     </div>
-    
-    <div id="app"></div>
-  </div>
 
-  
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Atharva Shirude</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-  <script src="scripts/main.js"></script>  
+
+
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Hi, I'm Atharva Shirude</h1>
+                    <h2 class="hero__subtitle"><span class="typing-text"></span></h2>
+                    <p class="hero__description">
+                        Solving real-world security problems with curiosity, creativity, and just enough paranoia to keep things safe and interesting.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#experience" class="btn btn--primary">My Work</a>
+                        <a href="files/Atharva_Shirude_Resume.pdf" class="btn btn--outline" target="_blank">Resume</a>
+                        <button id="terminalBtn" class="btn btn--primary" onclick="toggleTerminal()">
+                        <i class="fas fa-terminal"></i>
+                        <span>Terminal</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="files/profile.png" alt="Atharva" class="hero__avatar">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>
+                            With a strong focus on Application Security and Penetration Testing, I enjoy uncovering vulnerabilities, strengthening defenses, and building safer systems.<br><br> Outside of security, you’ll usually find me on the basketball court, playing chess, or exploring hiking trails.
+                        </p>
+                    </div>
+                    <div class="about__info">
+                        <div class="about__card">
+                            <h3>Core Interests</h3>
+                            <ul>
+                                <li>🛡️ Penetration Testing</li>
+                                <li>🧠 AI x Security</li>
+                                <li>🔍 Threat Hunting</li>
+                                <li>☁️ Cloud Security</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <h2 class="section__title">Work Experience</h2>
+                <div class="experience__timeline">
+                    <!-- Experience Item 1 -->
+                    <div class="experience__item">
+                        <div class="experience__header">
+                            <h3 class="experience__role">Security Engineer</h3>
+                            <h4 class="experience__company">Ameeba Labs</h4>
+                            <span class="experience__date">June 2025 – Present</span>
+                        </div>
+                        <p class="experience__description">
+                            • LLM Application Penetration Testing<br><br>
+                            • Vulnerability Research and Exploitation<br>  <br> 
+                            • Web Application Security Testing<br><br>
+                            • Android Security Assessments<br><br>
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">Jadx</span>
+                            <span class="tag">ApkTool</span>
+                            <span class="tag">MobSF</span>
+                            <span class="tag">Firda</span>
+                            <span class="tag">Burpsuite</span>
+                            <span class="tag">Nmap</span>
+                            <span class="tag">Custom red teaming scripts</span>
+                        </div>
+                    </div>
+                    <!-- Experience Item 2 -->
+                    <div class="experience__item">
+                        <div class="experience__header">
+                            <h3 class="experience__role">Security Researcher</h3>
+                            <h4 class="experience__company">University of Maryland</h4>
+                            <span class="experience__date">November 2023 - May 2025</span>
+                        </div>
+                        <p class="experience__description">
+                            • Built automated research pipeline for cybersecurity disclosure analysis<br><br>
+                            • Developed NLP scripts for security governance insights<br><br>
+                            • Implemented RAG methodology for large-scale analysis<br><br>
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">Selenium</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">regex</span>
+                            <span class="tag">NLP libraries (spaCy, NLTK)</span>
+                            <span class="tag">LangChain</span>
+                        </div>
+                    </div>
+                    <!-- Experience Item 3 -->
+                    <div class="experience__item">
+                        <div class="experience__header">
+                            <h3 class="experience__role">Security Engineer</h3>
+                            <h4 class="experience__company">PKF Algosmic</h4>
+                            <span class="experience__date">February 2022 – July 2023</span>
+                        </div>
+                        <p class="experience__description">
+                            • Active Directory Security Assessments<br><br>
+                            • Thick Client Application Penetration Testing<br><br>
+                            • Web Application Penetration Testing:<br><br>
+                            • Incident Response & Threat Detection<br><br>
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">BloodHound</span>
+                            <span class="tag">Burp Suite Pro</span>
+                            <span class="tag">CrackMapExec</span>
+                            <span class="tag">ladapsearch</span>
+                            <span class="tag">smbclient</span>
+                            <span class="tag">ELK Stack</span>
+                        </div>
+                    </div>
+                    <!-- Experience Item 4 -->
+                    <div class="experience__item">
+                        <div class="experience__header">
+                            <h3 class="experience__role">Security Engineer</h3>
+                            <h4 class="experience__company">HACKX Security Pvt Ltd</h4>
+                            <span class="experience__date">July 2021 – January 2022</span>
+                        </div>
+                        <p class="experience__description">
+                            • Vulnerability scanner development<br><br>
+                            • Web Application Security Testing<br><br>
+                            • Conducted Security Awareness Training<br><br>
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">SQLMap</span>
+                            <span class="tag">Burp Suite Pro</span>
+                            <span class="tag">Dirsearch</span>
+                            <span class="tag">Hydra</span>
+                            <span class="tag">CyberChef</span>
+                            <span class="tag">NMap</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Featured Projects</h2>
+                <div class="projects__grid">
+                    <!-- Project Card 1 -->
+                    <div class="project__card card">
+                        <div class="card__body">
+                            <h3>Android Static Analysis Tool with LLM Integration</h3>
+                            <p>Automated decompilation and vulnerability scanning of Android APKs with AI remediation.</p>
+                        </div>
+                        <div class="card__footer">
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">Ollama</span>
+                                <span class="tag">Androguard</span>
+                                <span class="tag">OWASP MASVS guidelines</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="https://github.com/AtharvaShirude/DroidInsight" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Project Card 2 -->
+                    <div class="project__card card">
+                        <div class="card__body">
+                            <h3>Honeypot Deployment for Threat Detection & Logging</h3>
+                            <p>Deployed honeypot simulating SSH, HTTP, FTP; integrated with ELK Stack for attack analysis.</p>
+                        </div>
+                        <div class="card__footer">
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">ELK Stack(Elasticsearch, Logstash, Kibana)</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">Cowrie</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="https://github.com/atharvaShirude/honeypot-threat-detection" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="skills__content">
+                    <div class="skills__category">
+                        <h3>Tools & Frameworks</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Burp Suite pro</span>
+                            <span class="skill-tag">LangChain</span>
+                            <span class="skill-tag">Nessus</span>
+                            <span class="skill-tag">Terraform</span>
+                            <span class="skill-tag">ELK Stack</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact__content">
+                    <p>I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, my inbox is always open!</p>
+                    <a href="https://calendly.com/sec-atharvashirude/30min" class="btn btn--primary btn--lg">Say Hello</a>
+
+                    <div class="contact__grid-top">
+                        <!-- GitHub Card -->
+                        <a href="https://github.com/atharvashirude" target="_blank" class="contact__card">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <div class="contact__card-info">
+                                <h4>GitHub</h4>
+                                <p>@atharvashirude</p>
+                            </div>
+                        </a>
+                        <!-- LinkedIn Card -->
+                        <a href="https://www.linkedin.com/in/atharvashirude/" target="_blank" class="contact__card">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <div class="contact__card-info">
+                                <h4>LinkedIn</h4>
+                                <p>atharvashirude</p>
+                            </div>
+                        </a>
+                        <!-- Blog Card -->
+                        <a href="https://rootissh.in" target="_blank" class="contact__card">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><title>Blog</title><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                            <div class="contact__card-info">
+                                <h4>Blog</h4>
+                                <p>@atharvashirude</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contact__grid-bottom">
+                        <!-- Phone Card -->
+                        <div class="contact__card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <title>Email</title>
+                                <rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect>
+                                <polyline points="3,5 12,13 21,5"></polyline>
+                            </svg>
+                            <div class="contact__card-info">
+                                <h4>Email</h4>
+                                <a href="mailto:sec.atharvashirude@gmail.com">
+                                <p  id="phone-number">sec.atharvashirude@gmail.com</p></a>
+                            </div>
+                            <button class="contact__copy-btn" id="copy-phone-btn" title="Copy to clipboard">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" 
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Terminal Modal -->
+    <div class="terminal-modal hidden" id="terminalModal">
+    <div class="terminal-overlay" id="terminalOverlay"></div>
+    <div class="terminal-window">
+        <div class="terminal-header">
+        <div class="window-controls">
+            <span class="control close" id="terminalClose"></span>
+            <span class="control minimize"></span>
+            <span class="control maximize"></span>
+        </div>
+        <span class="terminal-title">Portfolio Terminal</span>
+        </div>
+        <div class="terminal-container" id="terminalContainer">
+        <div class="terminal-content" id="terminalContent">
+            <pre>
+    Welcome to Atharva's Terminal!
+    Type 'help' to see available commands. 
+    You can use tab completion.
+            </pre>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Terminal Loading Overlay -->
+    <div class="loading-overlay" id="terminalLoading" style="display:none;">
+    <div class="loading-content">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Establishing Secure Connection...</div>
+    </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Atharva Shirude. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
+</html>
+
+
+ 
